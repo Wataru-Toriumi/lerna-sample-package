@@ -5,7 +5,11 @@
   "repository": "git@github-private:Wataru-Toriumi/lerna-sample-package.git",
   "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.22.0",
     "lerna": "^4.0.0"
   },
   "workspaces": [

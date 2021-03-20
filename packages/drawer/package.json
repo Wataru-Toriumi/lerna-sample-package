@@ -5,14 +5,7 @@
   "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/drawer.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "main": "src/index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -22,5 +15,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2"
   }
 }
