@@ -5,7 +5,7 @@
   "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "publishConfig": {
     "access": "public"
   },
@@ -14,7 +14,7 @@
     "url": "git@github-private:Wataru-Toriumi/lerna-sample-package.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "webpack --config ./config/webpack.dev.js --watch"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -23,5 +23,13 @@
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.27.0",
+    "webpack-cli": "^4.5.0"
   }
 }

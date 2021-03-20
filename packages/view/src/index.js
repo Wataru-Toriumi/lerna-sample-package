@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {ButtonAppBar} from '@Wataru-Toriumi/header';
-import {TemporaryDrawer} from '@Wataru-Toriumi/drawer';
+import {ButtonAppBar} from '@wataru-toriumi/header';
+import {TemporaryDrawer} from '@wataru-toriumi/drawer';
 
 export const SampleView = () => {
   return (

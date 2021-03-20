@@ -6,7 +6,13 @@
   "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "add:all": "lerna add",
+    "install:all": "lerna bootstrap && lerna link",
+    "start:scoped": "lerna run start --scope"
+  },
   "devDependencies": {
+    "@storybook/cli": "^6.1.21",
     "eslint": "^7.22.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.22.0",
