@@ -1,0 +1,11 @@
+{
+  "name": "lerna-sample-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-private:Wataru-Toriumi/lerna-sample-package.git",
+  "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
