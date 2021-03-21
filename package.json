@@ -9,7 +9,9 @@
   "scripts": {
     "add:all": "lerna add",
     "install:all": "lerna bootstrap && lerna link",
-    "start:scoped": "lerna run start --scope"
+    "start:scoped": "lerna run start --scope",
+    "start:all": "lerna run start --parallel",
+    "clean": "lerna clean"
   },
   "devDependencies": {
     "@storybook/cli": "^6.1.21",
