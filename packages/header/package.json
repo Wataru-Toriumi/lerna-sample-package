@@ -7,7 +7,8 @@
   "license": "ISC",
   "main": "dist/bundle.js",
   "files": [
-    "dist"
+    "dist",
+    "package.json"
   ],
   "publishConfig": {
     "access": "public"
@@ -39,5 +40,5 @@
     "webpack": "^5.27.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "a4b90c6a7ef7794755478d731ed4b636ce2433f9"
+  "gitHead": "ed39fca3816a0226cae8946dc1ea0bed946c4732"
 }
