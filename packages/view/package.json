@@ -1,6 +1,6 @@
 {
   "name": "@wataru-toriumi/view",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "page component",
   "author": "Wataru-Toriumi <wataru.19930213@gmail.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
-    "@wataru-toriumi/drawer": "^1.2.2",
-    "@wataru-toriumi/header": "^1.2.2"
+    "@wataru-toriumi/drawer": "^1.2.3",
+    "@wataru-toriumi/header": "^1.2.3"
   },
   "peerDependencies": {
     "react": "^17.0.1",
