@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "webpack --config ./config/webpack.dev.js --watch",
-    "prepublish": "webpack --mode production --config ./config/webpack.prod.js"
+    "prepublish": "webpack --mode production --config ./config/webpack.prod.js",
+    "build": "webpack --mode production --config ./config/webpack.prod.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -40,5 +41,5 @@
     "webpack": "^5.27.0",
     "webpack-cli": "^4.5.0"
   },
-  "gitHead": "ed39fca3816a0226cae8946dc1ea0bed946c4732"
+  "gitHead": "f60418c2847c8a31ac72e5f1d7eaed6e03cd23c1"
 }
