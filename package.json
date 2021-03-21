@@ -11,10 +11,18 @@
     "install:all": "lerna bootstrap && lerna link",
     "start:scoped": "lerna run start --scope",
     "start:all": "lerna run start --parallel",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
     "@storybook/cli": "^6.1.21",
+    "@storybook/react": "^6.1.21",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.22.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.22.0",
@@ -22,5 +30,6 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {}
 }

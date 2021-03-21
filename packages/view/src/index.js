@@ -1,15 +1,20 @@
 import React from 'react';
 
-import {ButtonAppBar} from '@wataru-toriumi/header';
+import {ButtonAppBar} from '@ataru-toriumi/header';
 import {TemporaryDrawer} from '@wataru-toriumi/drawer';
 
-export const SampleView = () => {
+export const SampleView = (props) => {
   return (
     <React.Fragment>
-      <ButtonAppBar />
-      <TemporaryDrawer />
+      {/* TODO: Implement dependencies */}
+      {/* <ButtonAppBar /> */}
+      {/* <TemporaryDrawer /> */}
+      <div>aaa</div>
     </React.Fragment>
   );
+};
+
+SampleView.propTypes = {
 };
 
 

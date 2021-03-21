@@ -5,9 +5,6 @@ module.exports = {
   output: {
     filename: 'bundle.js',
   },
-  optimization: {
-    minimize: true,
-  },
   module: {
     rules: [
       {

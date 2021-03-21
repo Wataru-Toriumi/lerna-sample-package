@@ -4,6 +4,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
+    library: '@wataru-toriumi/header',
+    libraryTarget: 'umd',
   },
   optimization: {
     minimize: true,

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import clsx from 'clsx';
 import {makeStyles} from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -30,14 +30,12 @@ export const TemporaryDrawer = (pros) => {
     setOpen(open);
   };
 
-  const list = (anchor) => (
+  const list = () => (
     <div
-      className={clsx(classes.list, {
-        [classes.fullList]: anchor === 'top' || anchor === 'bottom',
-      })}
+      className={classes.list}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
     >
       <List>
         {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
@@ -66,13 +64,13 @@ export const TemporaryDrawer = (pros) => {
   return (
     <div>
       <React.Fragment>
-        <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+        <Button onClick={toggleDrawer(true)}>ボタン</Button>
         <Drawer
           anchor={'left'}
           open={open}
           onClose={toggleDrawer(!open)}
         >
-          {list(anchor)}
+          {list()}
         </Drawer>
       </React.Fragment>
     </div>

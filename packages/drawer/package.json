@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
